@@ -37,8 +37,13 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 /*
+<<<<<<< HEAD
             because it is within the same lexical environment which always supports inner most functions having access to its parent function. And so thinking about heridity where a parent (outer most function) gives info to child it means child has access to those genes and parent wont have access to childs gene
             */
+=======
+           because it is within the same lexical environment which always supports inner most functions having access to its parent function. And so thinking about heridity where a parent (outer most function) gives info to child it means child has access to those genes and parent wont have access to childs gene
+           */
+>>>>>>> 4870e8ae72fe30503e01169ba21981f046be1260
 // Explanation:
 
 const external = "I'm outside the function";
